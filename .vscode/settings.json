@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "tools.h": "c",
+        "delete.h": "c",
+        "stdio.h": "c"
+    }
+}
