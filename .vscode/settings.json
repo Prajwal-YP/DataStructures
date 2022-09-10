@@ -3,6 +3,8 @@
         "tools.h": "c",
         "delete.h": "c",
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "conio.h": "c",
+        "search.h": "c"
     }
 }

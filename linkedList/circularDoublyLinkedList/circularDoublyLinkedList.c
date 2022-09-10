@@ -3,8 +3,8 @@
 #include <conio.h>
 #include "node.h"
 #include "tools.h"
-#include "add.h"
 #include "delete.h"
+#include "add.h"
 #include "view.h"
 #include "search.h"
 
@@ -15,7 +15,7 @@ int main()
 
     while (1)
     {
-        printf("\n\t\tCircular Singly Linked List Program");
+        printf("\n\t\tCircular Doubly Linked List Program");
         printf("\n\t\t-------------------");
         printf("\n\n1.View\n2. Add\n3. Delete\n4. Search\n5. Exit\n\nEnter your Option\t: ");
         int ch;
@@ -40,6 +40,7 @@ int main()
                 search(tail);
                 break; 
             case 5: 
+                delete_all(&tail);
                 terminate();
                 break;
             default:
@@ -50,6 +51,6 @@ int main()
         mssgClear();
     }
     
-    delete_all(&tail);
+    // delete_all(&tail);
     return 0;
 }
