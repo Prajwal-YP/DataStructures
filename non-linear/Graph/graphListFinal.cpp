@@ -68,48 +68,6 @@ void printGraph(Graph *g)
     }
 }
 
-struct Node
-{
-    int data;
-    Node *right;
-};
-
-// struct Queue
-// {
-//     int data;
-//     Queue *front;
-//     Queue *rear;
-// };
-
-// Queue* getQueue()
-// {
-//     Queue *q = new Queue();
-//     q->front=NULL;
-//     q->rear=NULL;
-//     return q;
-// }
-
-// Queue *visited = getQueue();
-// Queue *buffer = getQueue();
-
-
-// Queue* enqueue(Queue *q,int val)
-// {
-//     if((q->front==NULL) && (q->rear==NULL))
-//     {
-//         q = 
-//     }
-// }
-
-// void bfs(Graph *g)
-// {
-
-//     while(g!=NULL)
-//     {
-//         enqueue()
-//     }
-
-// }
 
 int main()
 {
@@ -139,8 +97,8 @@ int main()
     //PRINTING
     printGraph(g);
 
-    std::cout<<"\n\nBreadth First Search";
-    std::cout<<"\n--------------------";
+    // std::cout<<"\n\nBreadth First Search";
+    // std::cout<<"\n--------------------";
     // bfs(g);
 
 
